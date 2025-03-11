@@ -19,7 +19,46 @@ h1 {
   margin: 0;
   top: -4px;
   right: 5px;
-
   color: transparent;
   text-shadow: 0 0 4px white;
+}
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
+
+#win-message {
+  position: absolute;
+  top: 30%; /* Move the message to the top half of the screen */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#win-message p {
+  font-size: 3em; /* Increase the font size */
+  color: white; /* Set the text color to white */
+  margin: 0; /* Remove bottom margin */
+}
+
+#playbutton {
+  position: absolute;
+  top: 50%; /* Position the button below the message */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#playbutton button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
 }
