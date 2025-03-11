@@ -7,5 +7,4 @@ This project is a simple interactive game where balls bounce around the screen, 
 ## Sources and Credits
 
 - MDN: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript
-
-- 
+- MDN: https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
