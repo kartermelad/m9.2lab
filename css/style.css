@@ -33,7 +33,7 @@ p {
 
 #win-message {
   position: absolute;
-  top: 30%; /* Move the message to the top half of the screen */
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -44,14 +44,14 @@ p {
 }
 
 #win-message p {
-  font-size: 3em; /* Increase the font size */
-  color: white; /* Set the text color to white */
-  margin: 0; /* Remove bottom margin */
+  font-size: 3em;
+  color: white;
+  margin: 0; 
 }
 
 #playbutton {
   position: absolute;
-  top: 50%; /* Position the button below the message */
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
